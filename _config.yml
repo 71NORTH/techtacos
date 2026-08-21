@@ -1,8 +1,8 @@
 title: Tech-Taco
 description: > # this means to ignore newlines until "baseurl:"
   Each Tuesday, we’ll dive into a different topic, from coding basics and GitHub to AI and trending tech innovations. Our presentations are designed to be engaging and accessible, ensuring everyone can join the tech conversation, no matter your level of expertise.
-baseurl: "/tech-taco-event" # the subpath of your site, e.g. /blog
-url: "https://71north.github.io" # the base hostname & protocol for your site
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://techtacos.org" # the base hostname & protocol for your site
 # Build settings
 markdown: kramdown
 permalink: pretty

@@ -1,4 +1,34 @@
-# Event Jekyll Theme
+# Tech-Taco
+
+Site source for [techtacos.org](https://techtacos.org), 71 North's weekly tech meetup.
+
+![poster](TechTacos5pm.png)
+
+![topics](taco-topics.png)
+
+![learn](learn-together.png)
+
+## Local development
+
+```bash
+bundle install
+bundle exec jekyll serve
+```
+
+The site will be available at `http://localhost:4000`.
+
+## Adding a new semester
+
+Each semester gets its own two-digit-year namespace, following the existing `24`/`25`/`26` pattern (Liquid data-file names can't start with a digit, hence e.g. `site.data['26']` instead of `site.data.26`):
+- `_data/<YY>/` — `Schedule.yml`, `teams.yml`, `faq.yml`, `home_about_data.yml`
+- `_includes/<YYYY>_data/` and `_layouts/<YYYY>_default.html` / `<YYYY>_home.html` / `<YYYY>_pdf.html`
+- `<YYYY>_pages/` — `agenda.html`, `booklet.html`, `faqs.html`, `register.html`, `team.html`, `venue.html`
+
+The **live** site is always whatever the current `2026_pages`/`_data/26`/etc. are pointed at from `index.html`, `404.html`, and `about.html`. Once a semester ends, its pages move to `/archive/<year>/...` (change each page's `permalink:` front matter) and get linked from `archive.html`, while the current year's namespace gets scaffolded fresh (empty `Schedule.yml`/`teams.yml`, `[]`) for the next semester. See `/archive/2024` and `/archive/2025` for reference.
+
+---
+
+## Event Jekyll Theme
 Event Jekyll Theme is a theme that is designed to be used for conference and event purposes. The index page is a modification and built on top of [Agency Jekyll Theme](https://github.com/y7kim/agency-jekyll-theme). Unlike most Jekyll Themes, Event Jekyll Theme is not meant to be a single page theme. This theme is a package that you can use for your organization's event as it come with almost everything you need. I reorganized all the files to make sure that you can easily reuse the same template each year (or each month, depending on how you organize the path), assuming that you event is once a year. 
 
 Big thanks to the creator of Agency as this theme would not be possible without their hard work! You are always welcome to contribute to this repository to make it better!

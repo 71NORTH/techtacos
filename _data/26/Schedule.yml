@@ -10,8 +10,8 @@
 - title: "Revealing JS: Reveal.js"
   date: "2026-09-08"
   subtitle: Build presentations with HTML and JavaScript.
-  img: https://upload.wikimedia.org/wikipedia/commons/9/99/Unofficial_JavaScript_logo_2.svg
-  thumbnail: https://upload.wikimedia.org/wikipedia/commons/9/99/Unofficial_JavaScript_logo_2.svg
+  img: https://revealjs.com/images/logo/reveal-symbol.svg
+  thumbnail: https://revealjs.com/images/logo/reveal-symbol.svg
   alt: JavaScript logo
   topic: Reveal.js, JavaScript
   description: Ditch the slide deck template and build presentations out of Markdown and HTML with Reveal.js. We'll cover setting up your first deck, slide transitions, speaker notes, and publishing it for free on the web. Facilitated by the Studio and Jerry.

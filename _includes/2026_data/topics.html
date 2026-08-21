@@ -1,0 +1,91 @@
+<!-- Portfolio Grid Section -->
+{% assign current_date = 'now' | date: "%Y-%m-%d" %}
+
+<section id="speakers" class="bg-light-gray">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2 class="section-heading">Upcoming Topics</h2>
+                <h3 class="section-subheading text-muted"></h3>
+            </div>
+        </div>
+        
+        <div class="row">
+        {% assign upcoming_posts = site.data['26'].Schedule | where_exp: "post", "post.date >= current_date" | sort: "date" | slice: 0, 3 %}
+        {% assign past_posts_check = site.data['26'].Schedule | where_exp: "post", "post.date < current_date" %}
+        {% if upcoming_posts.size == 0 and past_posts_check.size == 0 %}
+            <div class="col-lg-12 text-center">
+                <p>Schedule coming soon — check back!</p>
+            </div>
+        {% endif %}
+        {% for post in upcoming_posts %}
+            <div class="col-md-4 col-sm-6 speakers-item upcoming">
+                <a href="#{{ post.title | slugify }}" class="speakers-link" data-toggle="modal">
+                    <div class="speakers-hover">
+                        <div class="speakers-hover-content">
+                            <i class="fa fa-plus fa-3x"></i>
+                        </div>
+                    </div>
+                    {% if post.thumbnail contains 'http' %}
+                        <img src="{{ post.thumbnail }}" class="img-responsive img-centered" alt="{{ post.alt | default: post.title }}">
+                    {% else %}
+                        <img src="{{ site.baseurl }}/css/2026_style/img/{{ post.thumbnail }}" class="img-responsive img-centered" alt="{{ post.alt | default: post.title }}">
+                    {% endif %}
+                </a>
+                <div class="speakers-caption">
+                    <h4>{{ post.title }}</h4>
+                    <p class="text-muted">{{ post.date }}</p>
+                </div>
+            </div>
+        {% endfor %}
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2 class="section-heading">Past Topics</h2>
+                <h3 class="section-subheading text-muted"></h3>
+            </div>
+        </div>
+        
+        <div class="row past-topics">
+        {% assign past_posts = site.data['26'].Schedule | where_exp: "post", "post.date < current_date" | sort: "date" | reverse %}
+        {% for post in past_posts %}
+            <div class="col-md-4 col-sm-6 speakers-item past">
+                <a href="#{{ post.title | slugify }}" class="speakers-link" data-toggle="modal">
+                    <div class="speakers-hover">
+                        <div class="speakers-hover-content">
+                            <i class="fa fa-plus fa-3x"></i>
+                        </div>
+                    </div>
+                    {% if post.thumbnail contains 'http' %}
+                        <img src="{{ post.thumbnail }}" class="img-responsive img-centered" alt="{{ post.alt | default: post.title }}">
+                    {% else %}
+                        <img src="{{ site.baseurl }}/css/2026_style/img/{{ post.thumbnail }}" class="img-responsive img-centered" alt="{{ post.alt | default: post.title }}">
+                    {% endif %}
+                </a>
+                <div class="speakers-caption">
+                    <h4>{{ post.title }}</h4>
+                    <p class="text-muted">{{ post.date }}</p>
+                </div>
+            </div>
+        {% endfor %}
+        </div>
+    </div>
+</section>
+
+<style>
+    .speakers-item img{
+        width: 256px;
+        height: 256px;
+        object-fit: contain;
+        background: #fff;
+        border: 1px solid #eee;
+        padding: 8px;
+        border-radius: 6px;
+    }
+    .speakers-item.past img { filter: grayscale(35%) brightness(0.92); }
+    .speakers-item.past .speakers-caption { opacity: 0.85; }
+    .speakers-item.upcoming img { border-color: #ffc800; }
+    .past-topics { margin-top: 1.5rem; }
+</style>

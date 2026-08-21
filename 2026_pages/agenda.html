@@ -1,0 +1,33 @@
+---
+layout: 2026_default
+permalink: /agenda
+title: Agenda
+published: true
+---
+    <!--background color-->
+    <script type="text/javascript">
+        document.write ('<body style="background: Gainsboro; background-attachment: fixed;">')
+    </script>
+
+    <div class="event black-frame">
+      <h1>{{ page.title }}</h1>
+
+        <table class="agenda">
+            <thead>
+                <tr>
+                    <th class="row-1 agenda-time"><center>Date</center></th>
+                    <th class="row-2 agenda-activity"><center>Activity</center></th>
+                </tr>
+            </thead>
+
+            {% for agenda in site.data['26'].Schedule %}
+                <tr>
+                    <td>{{ agenda.date }}</td>
+                    <td>{{ agenda.title }}</td>
+                </tr>
+            {% endfor %}
+        </table>
+        {% if site.data['26'].Schedule.size == 0 %}
+            <p>Schedule coming soon — check back!</p>
+        {% endif %}
+    </div>

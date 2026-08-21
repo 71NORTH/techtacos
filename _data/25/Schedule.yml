@@ -1,0 +1,188 @@
+# - title: "Intro to Github"
+#   date: "2025-02-04"
+#   subtitle: an Exploration into Markdown and how to use it in Github.
+#   img: https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Octicons-mark-github.svg/2048px-Octicons-mark-github.svg.png
+#   thumbnail: https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Octicons-mark-github.svg/2048px-Octicons-mark-github.svg.png
+#   alt: Picture of Github logo
+#   topic: Github Markdown
+#   description: Join us for a fun, supportive session to kickstart your GitHub journey! Create your account and dive into GitHub Tutorials. Perfect for beginners looking to explore this essential tool for programmers.
+
+# - title: "Unleashing the Power of Data Viz in R: Welcome to the ggplot2 World with Dr Biagio Palese"
+#   date: "2025-02-11"
+#   subtitle: Data Viz in R
+#   img: https://upload.wikimedia.org/wikipedia/commons/1/1b/R_logo.svg
+#   thumbnail: https://upload.wikimedia.org/wikipedia/commons/1/1b/R_logo.svg
+#   alt: image of R logo
+#   topic: R
+#   description: |
+#     Dive into the world of data visualization with ggplot2, the Swiss Army knife of R graphics! In this talk, we'll explore how this powerful package can turn your raw data into stunning, insightful visualizations that speak louder than words.  
+    
+#     In this introductory talk, you'll discover how ggplot2's intuitive grammar of graphics can help you create beautiful, publication-ready plots with ease. Whether you're a beginner or an experienced R user, this session will equip you with the skills to make your data come alive and tell compelling stories through visuals.
+
+#     Sample this Tech Taco at: [https://drb-workshops-portfolio.netlify.app](https://drb-workshops-portfolio.netlify.app)
+
+# - title: Playing with Python Turtle - Miguel Williams
+#   date: "2025-02-18"
+#   subtitle: Playing with Python
+#   img: https://docs.python.org/3/_images/turtle-star.png
+#   thumbnail: https://docs.python.org/3/_images/turtle-star.png
+#   alt: python turtle star from python docs
+#   topic: Python turtle library
+#   description: Instructor Miguel Williams will guide you through the basics of Python Turtle. Learn how to create beautiful graphics and animations using this fun and interactive library.
+
+# - title: Tech for Good - Collaboration with College of Business
+#   date: "2025-02-25"
+#   subtitle: Tech for Good
+#   img: https://my.aacsb.edu/Portals/0/assets/images/contact/Northern-Illinois-University.jpg
+#   thumbnail: https://my.aacsb.edu/Portals/0/assets/images/contact/Northern-Illinois-University.jpg
+#   alt: NIU COB logo
+#   topic: Tech for Good
+#   description: Join us for a special session in collaboration with the College of Business. We'll explore how technology can be used for social good and discuss the impact of tech on society.
+
+# - title: How to R-ticulate Data Insights - Jeremy Groves
+#   date: "2025-03-04"
+#   subtitle: Data Insights with R
+#   img: https://upload.wikimedia.org/wikipedia/commons/1/1b/R_logo.svg
+#   thumbnail: https://upload.wikimedia.org/wikipedia/commons/1/1b/R_logo.svg
+#   alt: R logo
+#   topic: Visualizing data with R
+#   description: Dr. Jeremy Groves will show you how to create powerful data visualizations in R. Learn how to turn your data into actionable insights that will help you make informed decisions.
+
+# - title: The Mystery of SQL Joins
+#   date: "2025-03-18"
+#   subtitle: SQL Mystery
+#   img: https://mystery.knightlab.com/174092-clue-illustration.png
+#   thumbnail: https://mystery.knightlab.com/174092-clue-illustration.png
+#   alt: image of a detective solving a mystery on a corkboard
+#   topic: SQL
+#   description: |
+#     Join us as we unravel the mystery of SQL joins. Learn how to combine data from multiple tables and unlock the full power of SQL in your data analysis.
+
+#     [Download the SQL Joins PDF](/assets/SQLMystery-CW-compressed.pdf)
+    
+# - title: Using Python with Jupyter Notebook - Nathan Krislock
+#   date: "2025-03-25"
+#   subtitle: Python with Jupyter Notebook
+#   img: https://upload.wikimedia.org/wikipedia/commons/3/38/Jupyter_logo.svg
+#   thumbnail: https://upload.wikimedia.org/wikipedia/commons/3/38/Jupyter_logo.svg
+#   alt: jupyter logo
+#   topic: python, jupyter notebooks
+#   description: Nathan Krislock will guide you through using Python with Jupyter Notebook. Learn how to create interactive notebooks that combine code, visualizations, and text to tell a compelling data story.
+
+# - title: Setup a project with VS Code + Codespace
+#   date: "2025-04-01"
+#   subtitle: Codespace & VS Code
+#   img: https://upload.wikimedia.org/wikipedia/commons/9/9a/Visual_Studio_Code_1.35_icon.svg
+#   thumbnail: https://upload.wikimedia.org/wikipedia/commons/9/9a/Visual_Studio_Code_1.35_icon.svg
+#   alt: Visual Studio Code logo
+#   topic: VS Code, Codespace
+#   description: | 
+#     Come learn how to leverage VScode and Codespaces to set up your project environment. We'll cover the basics of setting up a project, working with extensions.  
+  
+#     [Click here](https://learn.microsoft.com/en-us/training/modules/code-with-github-codespaces/) To get started!  
+#     Presented by Adam Bougher
+
+# Fall 2025 Schedule
+- title: "GitHub Tutorial"
+  date: "2025-09-02"
+  subtitle: an Exploration into Markdown and how to use it in Github.
+  img: https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Octicons-mark-github.svg/2048px-Octicons-mark-github.svg.png
+  thumbnail: https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Octicons-mark-github.svg/2048px-Octicons-mark-github.svg.png
+  alt: Picture of Github logo
+  topic: Github Markdown
+  description: Join us for a fun, supportive session to kickstart your GitHub journey! Create your account and dive into GitHub Tutorials. Perfect for beginners looking to explore this essential tool for programmers.
+
+- title: "GitHub Codespaces"
+  date: "2025-09-09"
+  subtitle: Codespace & VS Code
+  img: https://upload.wikimedia.org/wikipedia/commons/9/9a/Visual_Studio_Code_1.35_icon.svg
+  thumbnail: https://upload.wikimedia.org/wikipedia/commons/9/9a/Visual_Studio_Code_1.35_icon.svg
+  alt: Visual Studio Code logo
+  topic: VS Code, Codespace
+  description: | 
+    Come learn how to leverage VScode and Codespaces to set up your project environment. We'll cover the basics of setting up a project, working with extensions.  
+  
+    [Click here](https://learn.microsoft.com/en-us/training/modules/code-with-github-codespaces/) To get started!  
+    Presented by Adam Bougher
+
+- title: "Python Basics"
+  date: "2025-09-16"
+  subtitle: Python with Jupyter Notebook
+  img: https://upload.wikimedia.org/wikipedia/commons/3/38/Jupyter_logo.svg
+  thumbnail: https://upload.wikimedia.org/wikipedia/commons/3/38/Jupyter_logo.svg
+  alt: jupyter logo
+  topic: python, jupyter notebooks
+  description: Nathan Krislock will guide you through using Python with Jupyter Notebook. Learn how to create interactive notebooks that combine code, visualizations, and text to tell a compelling data story.
+
+- title: "Markdown in GitHub"
+  date: "2025-09-23"
+  subtitle: an Exploration into Markdown and how to use it in Github.
+  img: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT904XZ8kpOic417aETQDdVWE2u5LpQ6XJhNQ&s
+  thumbnail: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT904XZ8kpOic417aETQDdVWE2u5LpQ6XJhNQ&s
+  alt: Picture of Github logo
+  topic: Github Markdown
+  description: Unlock the potential of Markdown! Learn this simple yet powerful way to enhance your text on platforms like GitHub and Microsoft Loop. We'll cover lists, fonts, and more.
+
+- title: "Websites in Markdown"
+  date: "2025-09-30"
+  subtitle: An introduction to building a website using the static site generator Jekyll.
+  img: https://miro.medium.com/v2/resize:fit:930/1*A6XKUw5ZGeMA7w7lG5SG9g.png
+  thumbnail: https://www.svgrepo.com/show/376329/jekyll.svg
+  alt: Picture of Jekyll logo
+  topic: Jekyll
+  description: Create a stunning website without breaking the bank or your brain! Using Markdown and Jekyll, we'll help you craft a professional profile hosted on GitHub for free. Perfect for anyone launching a personal profile (especially grad students needing a job market website).
+
+- title: "Jump into Julia"
+  date: "2025-10-07"
+  subtitle: An introduction to the Julia programming language.
+  img: https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Julia_prog_language.svg/2048px-Julia_prog_language.svg.png
+  thumbnail: https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Julia_prog_language.svg/2048px-Julia_prog_language.svg.png
+  alt: Picture of Julia programming language logo
+  topic: Julia
+  description: Join us for an introduction to Julia, a high-level, high-performance programming language for technical computing. Perfect for data science, machine learning, and numerical analysis.
+
+- title: "High Performance Computing Cluster"
+  date: "2025-10-14"
+  subtitle: "Intro to HPC"
+  img: https://hpc.niu.edu/crcd/images/home-page/il2023-metis-01.jpg
+  thumbnail: https://hpc.niu.edu/crcd/images/home-page/il2023-metis-01.jpg
+  alt: "Compute cluster diagram"
+  topic: "HPC"
+  description: "Join us for an introduction to High Performance Computing (HPC) and learn how to potentially leverage NIU's HPC resources for your research."
+
+- title: "Tech for Good: Get Job Market Ready with Quinncia"
+  date: "2025-10-21"
+  subtitle: Tech for Good Get Job Market Ready
+  img: https://www.quinncia.io/open-graph-image.png
+  thumbnail: https://www.quinncia.io/open-graph-image.png
+  alt: NIU COB logo
+  topic: Tech for Good
+  description: Join us for a special session in collaboration with the NIU Career Services. Learn more about Quinncia, The AI platform that can help generate your resume, fix up your Linkedin, and even practice interviews.
+
+- title: "Markdown Magic: Math, Mermaid, and Job Market Profiles"
+  date: "2025-10-28"
+  subtitle: An introduction to LaTeX math in Markdown.
+  img: https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/LaTeX_logo.svg/2048px-LaTeX_logo.svg.png
+  thumbnail: https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/LaTeX_logo.svg/2048px-LaTeX_logo.svg.png
+  alt: Picture of LaTeX logo
+  topic: LaTeX
+  description: Join Dr. Anna Klis from the Economics Department to master Markdown, Make a FREE website to host your job market profile using Github Pages. Especially relevant for PhD students going onto the market.
+
+- title: "Hola Quantum Computing"
+  date: "2025-11-11"
+  subtitle: "Choosing a Data Tool"
+  img: https://upload.wikimedia.org/wikipedia/commons/1/1b/R_logo.svg
+  thumbnail: https://upload.wikimedia.org/wikipedia/commons/1/1b/R_logo.svg
+  alt: "R logo"
+  topic: "R vs Python"
+  description: "Description coming soon."
+
+- title: "R-ticulating Data Insights with R"
+  date: "2025-11-18"
+  subtitle: "R Workflow Essentials"
+  img: https://upload.wikimedia.org/wikipedia/commons/1/1b/R_logo.svg
+  thumbnail: https://upload.wikimedia.org/wikipedia/commons/1/1b/R_logo.svg
+  alt: "R logo"
+  topic: "R"
+  description: "Join Dr. Jeremy Groves from the Economics Department to learn how to create powerful data visualizations in R. Learn how to turn your data into actionable insights that will help you make informed decisions."
+

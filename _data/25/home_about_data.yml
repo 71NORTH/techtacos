@@ -1,0 +1,23 @@
+- inverted: 
+  img: icon-about.jpeg
+  name: Submit a Request
+  info: Read more about Tech-taco
+  link: about
+
+- inverted: timeline-inverted
+  img: icon-agenda.jpeg
+  name: Schedule a Meeting
+  info: Check out the agenda
+  link: archive/2025/agenda
+
+- inverted:
+  img: icon-team.jpeg
+  name: Team
+  info: Find out the team members
+  link: archive/2025/team
+
+- inverted: timeline-inverted
+  img: icon-faq.jpeg
+  name: FAQs
+  info: Have a Question? Many answers can be found right here in our FAQs
+  link: archive/2025/faqs

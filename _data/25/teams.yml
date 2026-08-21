@@ -1,0 +1,44 @@
+- title: Adam Bougher
+  name: adam-bougher
+  subtitle: Technology Partner at 71 North
+  img: https://avatars.githubusercontent.com/u/111816922?s=400&u=74cc9828d4fd3c1904084206a445efac9e88b565&v=4
+  thumbnail: https://avatars.githubusercontent.com/u/111816922?s=400&u=74cc9828d4fd3c1904084206a445efac9e88b565&v=4
+  alt: Picture of Adam Bougher
+  topic: Building a website with Markdown
+  description: Adam Bougher is a Technology Partner at 71 North. He has been working with Markdown for just under a year.
+
+- title: Brandon Goff 
+  name: brandon-goff 
+  subtitle: Housing Representative
+  img: /images/brandonGoff.webp
+  thumbnail: /images/brandonGoff.webp
+  alt: Brandon Goff 
+  topic: Topic
+  description: Housing Representative for the NIU Department of Housing and Residential Services
+
+- title: Anna Klis
+  name: anna-klis
+  subtitle: Associate Professor
+  img: /images/anna-klis.webp
+  thumbnail: /images/anna-klis.webp
+  alt: Picture of TBD
+  topic: Topic
+  description: I am an economist focused on game theory in environmental economics, overlapping with topics in public economics and sometimes mechanism design. I think about externalities and complicated real-world linkages can be expressed and understood via economic modeling, as well as how agents large and small can form agreements to promote positive (reduce negative) externalities. I also consider how to make theory approachable and enjoyable for all students, grad and undergrad, major or non-major. All this requires an openness to innovation and transdisciplinary collaboration, and a willingness to try new approaches to get from idea to execution. I hope to continue flourishing in my pursuit of economic research, education of the public, and development of personal knowledge and skills.
+
+- title: Federico Bassetti
+  name: federico-bassetti
+  subtitle: Director of ecosystem development
+  img: /images/federico-bassetti.webp
+  thumbnail: /images/federico-bassetti.webp
+  alt: Federico Bassetti
+  topic: Topic
+  description: creative leader, agile practitioner, and learning facilitator. He is on a mission to cultivate a thriving innovation ecosystem. 
+
+- title: Nikhil Doddaga
+  name: nikhil-doddaga
+  subtitle: Technology Partner at 71 North
+  img: https://71north.github.io/assets/images/people/NikhilHeadshot.jpeg
+  thumbnail: https://71north.github.io/assets/images/people/NikhilHeadshot.jpeg
+  alt: Nikhil Doddaga
+  topic: Topic
+  description: Nikhil Doddaga is a software engineer with a passion for building scalable and reliable systems. He has experience working with a variety of technologies and is always looking to learn new things.

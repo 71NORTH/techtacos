@@ -5,6 +5,12 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://techtacos.org" # the base hostname & protocol for your site
 # Build settings
 markdown: kramdown
+
+# The 2016 theme's stylesheets still use Sass @import; silence the deprecation
+# spam until they're migrated to @use.
+sass:
+  silence_deprecations:
+    - import
 permalink: pretty
 
 facebook:

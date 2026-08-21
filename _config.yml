@@ -10,7 +10,7 @@ permalink: pretty
 facebook:
   app_id: 
 
-logo: "/css/2024_style/img/tech-tacos.jpeg"
+logo: /assets/images/tech-taco.svg
 
 google_site_verification: googleXXXXXXXXXXXXXXXX.html
 

@@ -15,10 +15,10 @@
                             <h2>{{ post.title }}</h2>
                             <hr class="star-primary">
                             
-                            {% if post.thumbnail contains 'http' %}
+                            {% if post.img contains 'http' %}
                             <img src="{{ post.img }}" class="img-responsive img-centered" alt="">
                             {% else %}
-                            <img src="{{site.baseurl}}/css/2017_style/img/speaker/{{ post.img }}" class="img-responsive img-centered" alt="">
+                            <img src="{{site.url}}{{ site.baseurl }}/css/2024_style/img/{{ post.img }}" class="img-responsive img-centered" alt="">
                             {% endif %}
                             
                             <h3>Topic: {{ post.topic }}</h3>

@@ -1,1 +1,101 @@
-[]
+- title: "GitHub Tutorial / Intro to FOSS"
+  date: "2026-09-01"
+  subtitle: Getting started with GitHub and free and open source software.
+  img: https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg
+  thumbnail: https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg
+  alt: Picture of Github logo
+  topic: GitHub, FOSS
+  description: Join us for a fun, supportive session to kickstart your GitHub journey! Create your account, work through the GitHub tutorials, and get introduced to the world of free and open source software. Perfect for beginners looking to explore this essential tool for programmers. Facilitated by the Studio.
+
+- title: "Revealing JS: Reveal.js"
+  date: "2026-09-08"
+  subtitle: Build presentations with HTML and JavaScript.
+  img: https://upload.wikimedia.org/wikipedia/commons/9/99/Unofficial_JavaScript_logo_2.svg
+  thumbnail: https://upload.wikimedia.org/wikipedia/commons/9/99/Unofficial_JavaScript_logo_2.svg
+  alt: JavaScript logo
+  topic: Reveal.js, JavaScript
+  description: Ditch the slide deck template and build presentations out of Markdown and HTML with Reveal.js. We'll cover setting up your first deck, slide transitions, speaker notes, and publishing it for free on the web. Facilitated by the Studio and Jerry.
+
+- title: "TinkerCAD and 3D Printing: Practical Printing for All Skill Levels"
+  date: "2026-09-15"
+  subtitle: Design in the browser, print in the real world.
+  img: https://upload.wikimedia.org/wikipedia/commons/6/6c/Prusa_i3_-_RepRap_3D_printer_printing.jpg
+  thumbnail: https://upload.wikimedia.org/wikipedia/commons/6/6c/Prusa_i3_-_RepRap_3D_printer_printing.jpg
+  alt: Picture of a 3D printer mid print
+  topic: TinkerCAD, 3D printing
+  description: No CAD experience required! Learn to model a part in TinkerCAD from scratch, then walk through what it takes to actually get it off the printer — slicing, materials, and the settings that matter. Practical printing for all skill levels. Facilitated by Jerry and the Studio.
+
+- title: "Coding in the Cloud: GitHub Codespaces"
+  date: "2026-09-22"
+  subtitle: Codespaces & VS Code
+  img: https://upload.wikimedia.org/wikipedia/commons/9/9a/Visual_Studio_Code_1.35_icon.svg
+  thumbnail: https://upload.wikimedia.org/wikipedia/commons/9/9a/Visual_Studio_Code_1.35_icon.svg
+  alt: Visual Studio Code logo
+  topic: VS Code, Codespaces
+  description: |
+    [Come learn](https://learn.microsoft.com/en-us/training/modules/code-with-github-codespaces/) how to leverage VS Code and Codespaces to set up your project environment — no installs, no "it works on my machine." We'll cover starting a project, working with extensions, and getting a full dev environment in the browser.
+
+    Facilitated by Dr. Anna Klis and the Studio.
+
+- title: "Markdown Magic: Memos + Math + Mermaid"
+  date: "2026-09-29"
+  subtitle: Memos, LaTeX math, and diagrams in Markdown.
+  img: https://upload.wikimedia.org/wikipedia/commons/9/92/LaTeX_logo.svg
+  thumbnail: https://upload.wikimedia.org/wikipedia/commons/9/92/LaTeX_logo.svg
+  alt: Picture of LaTeX logo
+  topic: Markdown, LaTeX, Mermaid
+  description: Join Dr. Anna Klis from the Economics Department to make Markdown do real work — clean memos, LaTeX math that renders anywhere, and Mermaid diagrams you can write in plain text instead of fighting with a drawing tool. Especially relevant for students and researchers writing up their work.
+
+- title: "Playing with Python Turtle"
+  date: "2026-10-06"
+  subtitle: Playing with Python
+  img: https://docs.python.org/3/_images/turtle-star.png
+  thumbnail: https://docs.python.org/3/_images/turtle-star.png
+  alt: python turtle star from python docs
+  topic: Python turtle library
+  description: Miguel Williams will guide you through the basics of Python Turtle. Learn how to create beautiful graphics and animations using this fun and interactive library — a great first taste of programming.
+
+- title: "Job Ready: Jekyll Resume"
+  date: "2026-10-13"
+  subtitle: An introduction to building a resume site with the static site generator Jekyll.
+  img: https://www.svgrepo.com/show/376329/jekyll.svg
+  thumbnail: https://www.svgrepo.com/show/376329/jekyll.svg
+  alt: Picture of Jekyll logo
+  topic: Jekyll
+  description: Create a stunning resume site without breaking the bank or your brain! Using Markdown and Jekyll, we'll help you craft a professional profile hosted on GitHub for free. Perfect for anyone launching a personal profile or heading onto the job market. Facilitated by the Studio.
+
+- title: "Jump into Julia"
+  date: "2026-10-20"
+  subtitle: An introduction to the Julia programming language.
+  img: https://upload.wikimedia.org/wikipedia/commons/1/1f/Julia_Programming_Language_Logo.svg
+  thumbnail: https://upload.wikimedia.org/wikipedia/commons/1/1f/Julia_Programming_Language_Logo.svg
+  alt: Picture of Julia programming language logo
+  topic: Julia
+  description: Join Dr. Nathan Krislock for an introduction to Julia, a high-level, high-performance programming language for technical computing. Perfect for data science, machine learning, and numerical analysis.
+
+- title: "Excel-ente: Excel and AI"
+  date: "2026-10-27"
+  subtitle: Spreadsheets that work harder than you do.
+  img: https://upload.wikimedia.org/wikipedia/commons/6/60/Microsoft_Office_Excel_%282025%E2%80%93present%29.svg
+  thumbnail: https://upload.wikimedia.org/wikipedia/commons/6/60/Microsoft_Office_Excel_%282025%E2%80%93present%29.svg
+  alt: Microsoft Excel logo
+  topic: Excel
+  description: Brandon Goff walks through the Excel skills that actually show up at work — formulas worth memorizing, pivot tables, and cleaning up messy data so it's usable. Bring a spreadsheet you're stuck on.
+
+- title: "R-ticulating Data Insights with R"
+  date: "2026-11-10"
+  subtitle: R Workflow Essentials
+  img: https://upload.wikimedia.org/wikipedia/commons/1/1b/R_logo.svg
+  thumbnail: https://upload.wikimedia.org/wikipedia/commons/1/1b/R_logo.svg
+  alt: R logo
+  topic: R
+  description: Join Dr. Jeremy Groves from the Economics Department to learn how to create powerful data visualizations in R. Learn how to turn your data into actionable insights that will help you make informed decisions.
+
+- title: "To Be Announced"
+  date: "2026-11-17"
+  subtitle: this one is still being finalized, but it will be a great special session
+  img: https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmedia.istockphoto.com%2Fid%2F2186580363%2Fvector%2Fto-be-announced.jpg%3Fs%3D170667a%26w%3D0%26k%3D20%26c%3DMI0bzABeq48jQWTkx2FLK56qU1bmiIH7g-NX2Fa85Vg%3D&f=1&nofb=1&ipt=418cf2315ab6ead6264e921eaa873333eef7cf1a9c2d801e4c0de19758207d1a
+  thumbnail: https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmedia.istockphoto.com%2Fid%2F2186580363%2Fvector%2Fto-be-announced.jpg%3Fs%3D170667a%26w%3D0%26k%3D20%26c%3DMI0bzABeq48jQWTkx2FLK56qU1bmiIH7g-NX2Fa85Vg%3D&f=1&nofb=1&ipt=418cf2315ab6ead6264e921eaa873333eef7cf1a9c2d801e4c0de19758207d1a
+  alt: to be announced with a megaphone 
+  topic: TBA
+  description: this one could be a special session not at 71 north, stay tuned!

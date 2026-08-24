@@ -14,7 +14,7 @@ published: true
 
       <p>Below is a list of Frequently Asked Questions (FAQ).<p>
         <ol>
-            {% for faq in site.data.24.faq %}
+            {% for faq in site.data['24'].faq %}
                 <li><b>{{ faq.question }}</b>
                     <br>{{ faq.answer }}<br><br>
                 </li>

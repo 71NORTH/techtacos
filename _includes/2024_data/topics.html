@@ -11,7 +11,7 @@
         </div>
         
         <div class="row">
-        {% assign upcoming_posts = site.data.24.Schedule | where_exp: "post", "post.date >= current_date" | sort: "date" | slice: 0, 3 %}
+        {% assign upcoming_posts = site.data['24'].Schedule | where_exp: "post", "post.date >= current_date" | sort: "date" | slice: 0, 3 %}
         {% for post in upcoming_posts %}
             <div class="col-md-4 col-sm-6 speakers-item">
                 <a href="#{{ post.title | slugify }}" class="speakers-link" data-toggle="modal">
@@ -43,7 +43,7 @@
         </div>
         
         <div class="row">
-        {% assign past_posts = site.data.24.Schedule | where_exp: "post", "post.date < current_date" | sort: "date" | reverse %}
+        {% assign past_posts = site.data['24'].Schedule | where_exp: "post", "post.date < current_date" | sort: "date" | reverse %}
         <!-- Debug: Output past posts -->
         
         {% for post in past_posts %}
